@@ -13,5 +13,5 @@ public class MyReceiver extends BroadcastReceiver {
         Log.d(LOG_TAG, "onReceive " + intent.getAction());
         context.startService(new Intent(context, MyIntentService.class));
     }
-    
+
 }
